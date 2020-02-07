@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bbcc351-1b64-4165-b9b3-7e05279b8e2e" name="Default Changelist" comment="init project">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaReview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaReview" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WWUGDkdlIY3PbRrdchZYCOy6i7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sthlike.java.review.thread.lock" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ShowAtomicReference">
+    <configuration name="ShowAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.cas.ShowAtomic" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sthlike.java.review.thread.cas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowAtomicReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.cas.ShowAtomicReference" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sthlike.java.review.thread.cas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowClassLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.classlayout.ShowClassLayout" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sthlike.java.review.classlayout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.lock.ShowCondition" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sthlike.java.review.thread.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.notify.ShowNotify" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sthlike.java.review.thread.notify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShowAtomicReference" />
+        <item itemvalue="Application.ShowAtomic" />
+        <item itemvalue="Application.ShowClassLayout" />
+        <item itemvalue="Application.ShowCondition" />
+        <item itemvalue="Application.ShowNotify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bbcc351-1b64-4165-b9b3-7e05279b8e2e" name="Default Changelist" comment="" />
+      <created>1579264747509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579264747509</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit c4043811">
+      <created>1580992403718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580992403720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit c4043811" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit c4043811" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="77" key="#Project_Structure" timestamp="1581086787532">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1581086787532" />
+    <state x="316" y="88" key="#ShowClassLayout" timestamp="1579764053521">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="316" y="88" key="#ShowClassLayout/0.23.1280.777@0.23.1280.777" timestamp="1579764053521" />
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579265729255">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1579265729255" />
+    <state x="453" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1580981250452">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="453" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1579339830887" />
+    <state x="453" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1580981250452" />
+    <state x="378" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579697991506">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="194" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1280.777@0.23.1280.777" timestamp="1579697991506" />
+    <state x="377" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579265728165">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="377" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1280.777@0.23.1280.777" timestamp="1579265728165" />
+    <state x="363" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579697888566">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="363" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1280.777@0.23.1280.777" timestamp="1579697888566" />
+    <state x="224" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1579266193487">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="224" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1280.777@0.23.1280.777" timestamp="1579266193487" />
+    <state x="328" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581084354464">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="328" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1581084354464" />
+    <state x="220" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580368313604">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="220" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580368313604" />
+    <state x="406" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1579697993008">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="406" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1280.777@0.23.1280.777" timestamp="1579697993008" />
+    <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580815182757">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777@0.23.1280.777" timestamp="1580815182757" />
+    <state x="337" y="297" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579266385908">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="337" y="297" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.777@0.23.1280.777" timestamp="1579266385908" />
+    <state x="232" y="23" key="CommitChangelistDialog2" timestamp="1580992402898">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="232" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1580992402898" />
+    <state x="503" y="312" key="Github.ShareDialog" timestamp="1580990612057">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="503" y="312" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1580990612057" />
+    <state x="377" y="125" key="Github.UntrackedFilesDialog" timestamp="1580990006667">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="377" y="125" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1580990006667" />
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom" timestamp="1581087086273">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787841" />
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581087086273" />
+    <state width="1238" height="285" key="GridCell.Tab.0.center" timestamp="1581087086271">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787838" />
+    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581087086271" />
+    <state width="1238" height="285" key="GridCell.Tab.0.left" timestamp="1581087086271">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787837" />
+    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581087086271" />
+    <state width="1238" height="285" key="GridCell.Tab.0.right" timestamp="1581087086272">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787840" />
+    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581087086272" />
+    <state width="1238" height="245" key="GridCell.Tab.1.bottom" timestamp="1580992653908">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="245" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580992653908" />
+    <state width="1238" height="245" key="GridCell.Tab.1.center" timestamp="1580992653907">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="245" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1580992653907" />
+    <state width="1238" height="245" key="GridCell.Tab.1.left" timestamp="1580992653907">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="245" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1580992653907" />
+    <state width="1238" height="245" key="GridCell.Tab.1.right" timestamp="1580992653908">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="245" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1580992653908" />
+    <state x="441" y="336" key="ReplaceDuplicatesPrompt" timestamp="1580297884905">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="441" y="336" key="ReplaceDuplicatesPrompt/0.23.1280.777@0.23.1280.777" timestamp="1580297884905" />
+    <state x="141" y="23" key="SettingsEditor" timestamp="1581087012984">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1581087012984" />
+    <state x="389" y="192" width="540" height="524" key="StructurePopup" timestamp="1581085523943">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="389" y="192" width="540" height="524" key="StructurePopup/0.23.1280.777@0.23.1280.777" timestamp="1581085523943" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1581001525019">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1581001525019" />
+    <state width="770" height="777" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1579697323610">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="770" height="777" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.23.1280.777@0.23.1280.777" timestamp="1579697323610" />
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1581084386170">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1581084386170" />
+    <state x="433" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581086894930">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="433" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.777@0.23.1280.777" timestamp="1581086894930" />
+    <state x="378" y="171" width="531" height="484" key="extract.method.dialog" timestamp="1580737753439">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="171" width="531" height="484" key="extract.method.dialog/0.23.1280.777@0.23.1280.777" timestamp="1580737753438" />
+    <state x="0" y="23" width="837" height="777" key="find.popup" timestamp="1581084520297">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="0" y="23" width="837" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1581084520297" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581086005371">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1581086005371" />
+  </component>
+</project>

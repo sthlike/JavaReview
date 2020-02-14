@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread.cas;
 
 import java.util.concurrent.atomic.AtomicInteger;

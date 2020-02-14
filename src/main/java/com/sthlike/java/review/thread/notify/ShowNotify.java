@@ -1,6 +1,42 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread.notify;
 
 public class ShowNotify {
+    public static void main(String[] args) throws InterruptedException {
+        Show show = new Show();
+        for (int i = 0; i < 3; i++) {
+            Thread condition2Runner = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    show.checkCondition2();
+                }
+            });
+            condition2Runner.start();
+        }
+        for (int i = 0; i < 3; i++) {
+            Thread condition1Runner = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    show.checkCondition1();
+                }
+            });
+            condition1Runner.start();
+        }
+        Thread.sleep(2000);
+        System.out.println();
+        show.changeCondition1(8);
+        Thread.sleep(1000);
+        System.out.println();
+        show.changeCondition1(11);
+        Thread.sleep(1000);
+        System.out.println();
+        show.changeCondition2(true);
+        Thread.sleep(1000);
+    }
+
     public static class Show {
 
         private int condition1 = 0;
@@ -48,37 +84,5 @@ public class ShowNotify {
             this.condition2 = condition2;
             notifyAll();
         }
-    }
-
-    public static void main(String[] args) throws InterruptedException {
-        Show show = new Show();
-        for (int i = 0; i < 3; i++) {
-            Thread condition2Runner = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    show.checkCondition2();
-                }
-            });
-            condition2Runner.start();
-        }
-        for (int i = 0; i < 3; i++) {
-            Thread condition1Runner = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    show.checkCondition1();
-                }
-            });
-            condition1Runner.start();
-        }
-        Thread.sleep(2000);
-        System.out.println();
-        show.changeCondition1(8);
-        Thread.sleep(1000);
-        System.out.println();
-        show.changeCondition1(11);
-        Thread.sleep(1000);
-        System.out.println();
-        show.changeCondition2(true);
-        Thread.sleep(1000);
     }
 }

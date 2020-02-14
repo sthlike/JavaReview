@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbcc351-1b64-4165-b9b3-7e05279b8e2e" name="Default Changelist" comment="init project">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaReview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/sthlike.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/singleton/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/classlayout/ShowClassLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/classlayout/ShowClassLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/CallableImplShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowCallableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/CallableShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/DaemonShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/MainShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowMainThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/RunnableImplShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowRunnableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/RunnableShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ThreadShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ThreadStopShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowStopThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomicReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomicReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/forkjoin/ShowForkJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/forkjoin/ShowForkJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowWaitTimeOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowWaitTimeOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowCachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowCachedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowFixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowFixedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowForkJoinPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowForkJoinPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowScheduledThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowScheduledThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowSingleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowSingleExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +87,27 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sthlike.java.review.thread.lock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShowAtomicReference">
+  <component name="RunManager" selected="Application.ShowCondition">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.singleton.Main" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sthlike.java.review.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShowAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.cas.ShowAtomic" />
       <module name="JavaReview" />
@@ -96,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowClassLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.classlayout.ShowClassLayout" />
-      <module name="JavaReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.classlayout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShowCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.lock.ShowCondition" />
       <module name="JavaReview" />
@@ -122,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.notify.ShowNotify" />
+    <configuration name="ShowReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.lock.ShowReadWriteLock" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.thread.notify.*" />
+          <option name="PATTERN" value="com.sthlike.java.review.thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowCondition" />
+        <item itemvalue="Application.ShowReadWriteLock" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ShowAtomicReference" />
         <item itemvalue="Application.ShowAtomic" />
-        <item itemvalue="Application.ShowClassLayout" />
-        <item itemvalue="Application.ShowCondition" />
-        <item itemvalue="Application.ShowNotify" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +217,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit c4043811" />
     <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit c4043811" />
   </component>
@@ -261,26 +287,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="377" y="125" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1580990006667" />
-    <state width="1238" height="285" key="GridCell.Tab.0.bottom" timestamp="1581087086273">
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom" timestamp="1581657593970">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787841" />
-    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581087086273" />
-    <state width="1238" height="285" key="GridCell.Tab.0.center" timestamp="1581087086271">
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581657593970" />
+    <state width="1238" height="285" key="GridCell.Tab.0.center" timestamp="1581657593969">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787838" />
-    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581087086271" />
-    <state width="1238" height="285" key="GridCell.Tab.0.left" timestamp="1581087086271">
+    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581657593969" />
+    <state width="1238" height="285" key="GridCell.Tab.0.left" timestamp="1581657593968">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787837" />
-    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581087086271" />
-    <state width="1238" height="285" key="GridCell.Tab.0.right" timestamp="1581087086272">
+    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581657593968" />
+    <state width="1238" height="285" key="GridCell.Tab.0.right" timestamp="1581657593969">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787840" />
-    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581087086272" />
+    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581657593969" />
     <state width="1238" height="245" key="GridCell.Tab.1.bottom" timestamp="1580992653908">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -301,10 +327,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="441" y="336" key="ReplaceDuplicatesPrompt/0.23.1280.777@0.23.1280.777" timestamp="1580297884905" />
-    <state x="141" y="23" key="SettingsEditor" timestamp="1581087012984">
+    <state x="141" y="23" key="SettingsEditor" timestamp="1581652134266">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="141" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1581087012984" />
+    <state x="141" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1581652134266" />
     <state x="389" y="192" width="540" height="524" key="StructurePopup" timestamp="1581085523943">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -333,9 +359,9 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="0" y="23" width="837" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1581084520297" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581086005371">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581652689202">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1581086005371" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1581652689202" />
   </component>
 </project>

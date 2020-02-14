@@ -1,17 +1,14 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-public class CallableImplShow {
-    public static class MyCallable implements Callable<String> {
-        @Override
-        public String call() throws Exception {
-            return Thread.currentThread().getName();
-        }
-    }
-
+public class ShowCallableImpl {
     public static void main(String[] args) {
         FutureTask<String> ft = new FutureTask<>(new MyCallable());
         Thread t = new Thread(ft);
@@ -23,6 +20,13 @@ public class CallableImplShow {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
+        }
+    }
+
+    public static class MyCallable implements Callable<String> {
+        @Override
+        public String call() throws Exception {
+            return Thread.currentThread().getName();
         }
     }
 }

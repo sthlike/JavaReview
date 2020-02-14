@@ -1,6 +1,10 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread;
 
-public class DaemonShow {
+public class ShowDaemon {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         Runnable runnable = new Runnable() {

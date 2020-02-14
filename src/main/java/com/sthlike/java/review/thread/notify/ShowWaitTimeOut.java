@@ -1,6 +1,39 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread.notify;
 
 public class ShowWaitTimeOut {
+    public static void main(String[] args) throws InterruptedException {
+        Show show = new Show();
+        for (int i = 0; i < 3; i++) {
+            Thread thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    show.checkCondition(0);
+                }
+            });
+            thread.start();
+        }
+
+        for (int i = 0; i < 3; i++) {
+            Thread thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    show.checkCondition(2000);
+                }
+            });
+            thread.start();
+        }
+        Thread.sleep(1000);
+        System.out.println();
+        show.triggerCondition(8);
+        Thread.sleep(4000);
+        System.out.println();
+        show.triggerCondition(12);
+    }
+
     public static class Show {
         private int condition = 0;
 
@@ -43,34 +76,5 @@ public class ShowWaitTimeOut {
                         this.condition, Thread.currentThread().getId());
             }
         }
-    }
-
-    public static void main(String[] args) throws InterruptedException {
-        Show show = new Show();
-        for (int i = 0; i < 3; i++) {
-            Thread thread = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    show.checkCondition(0);
-                }
-            });
-            thread.start();
-        }
-
-        for (int i = 0; i < 3; i++) {
-            Thread thread = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    show.checkCondition(2000);
-                }
-            });
-            thread.start();
-        }
-        Thread.sleep(1000);
-        System.out.println();
-        show.triggerCondition(8);
-        Thread.sleep(4000);
-        System.out.println();
-        show.triggerCondition(12);
     }
 }

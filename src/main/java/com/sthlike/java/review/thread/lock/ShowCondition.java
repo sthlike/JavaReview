@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread.lock;
 
 import java.util.concurrent.locks.Condition;
@@ -8,18 +12,8 @@ public class ShowCondition {
     public static void main(String[] args) throws InterruptedException {
         Show show = new Show();
         for (int i = 0; i < 3; i++) {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    show.checkCondition2();
-                }
-            }).start();
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    show.checkCondition1();
-                }
-            }).start();
+            new Thread(() -> show.checkCondition2()).start();
+            new Thread(() -> show.checkCondition1()).start();
         }
         Thread.sleep(2000);
         System.out.println();

@@ -1,6 +1,10 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread;
 
-public class ThreadStopShow {
+public class ShowStopThread {
     public static void main(String[] args) {
         Runnable runnable = new Runnable() {
             @Override

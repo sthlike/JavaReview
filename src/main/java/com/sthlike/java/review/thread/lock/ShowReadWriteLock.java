@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread.lock;
 
 import java.util.Random;
@@ -55,8 +59,8 @@ public class ShowReadWriteLock {
                 e.printStackTrace();
             } finally {
                 readLock.unlock();
-                return this.total;
             }
+            return this.total;
         }
 
         public void setTotal(int total) {

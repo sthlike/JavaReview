@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread.forkjoin;
 
 import java.util.ArrayList;
@@ -13,6 +17,21 @@ public class ShowForkJoin {
         ComputeTask task = new ComputeTask(project);
         pool.invoke(task);
         System.out.println(task.join());
+    }
+
+    private static TreeNode constructProject() {
+        TreeNode project = new TreeNode(NodeType.PROJECT, 0, null);
+        for (int i = 0; i < 20; i++) {
+            TreeNode subProject = new TreeNode(NodeType.SUB_PROJECT, 0, project);
+            for (int j = 0; j < 5000; j++) {
+                new TreeNode(NodeType.ITEM, j, subProject);
+            }
+        }
+        return project;
+    }
+
+    public enum NodeType {
+        PROJECT, SUB_PROJECT, ITEM
     }
 
     public static class ComputeTask extends RecursiveTask<Long> {
@@ -44,11 +63,11 @@ public class ShowForkJoin {
         }
     }
 
-    public enum NodeType {
-        PROJECT, SUB_PROJECT, ITEM
-    }
-
     public static class TreeNode {
+        private NodeType type;
+        private TreeNode parent;
+        private long amount;
+        private List<TreeNode> children = new ArrayList<>();
         public TreeNode(NodeType type, long amount, TreeNode parent) {
             this.type = type;
             this.amount = amount;
@@ -61,23 +80,6 @@ public class ShowForkJoin {
         public long calcCost() {
             return this.amount;
         }
-
-        private NodeType type;
-        private TreeNode parent;
-        private long amount;
-        private List<TreeNode> children = new ArrayList<>();
-    }
-
-
-    private static TreeNode constructProject() {
-        TreeNode project = new TreeNode(NodeType.PROJECT, 0, null);
-        for (int i = 0; i < 20; i++) {
-            TreeNode subProject = new TreeNode(NodeType.SUB_PROJECT, 0, project);
-            for (int j = 0; j < 5000; j++) {
-                new TreeNode(NodeType.ITEM, j, subProject);
-            }
-        }
-        return project;
     }
 
 }

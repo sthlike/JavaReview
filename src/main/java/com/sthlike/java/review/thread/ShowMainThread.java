@@ -1,10 +1,14 @@
+/*
+ * Copyright (c) 2020 sthlike.com.
+ */
+
 package com.sthlike.java.review.thread;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
 
-public class MainShow {
+public class ShowMainThread {
     public static void main(String[] args) {
         ThreadMXBean mxBean = ManagementFactory.getThreadMXBean();
         ThreadInfo[] threadInfos = mxBean.dumpAllThreads(true, true);

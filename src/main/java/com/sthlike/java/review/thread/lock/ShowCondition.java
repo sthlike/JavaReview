@@ -28,9 +28,9 @@ public class ShowCondition {
     }
 
     private static class Show {
-        private Lock lock = new ReentrantLock();
-        private Condition lockCondition1 = lock.newCondition();
-        private Condition lockCondition2 = lock.newCondition();
+        private final Lock lock = new ReentrantLock();
+        private final Condition lockCondition1 = lock.newCondition();
+        private final Condition lockCondition2 = lock.newCondition();
 
         private int condition1 = 0;
 

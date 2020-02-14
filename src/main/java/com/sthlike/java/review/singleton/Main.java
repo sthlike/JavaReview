@@ -10,5 +10,6 @@ public class Main {
         lazySingleton.print();
         HungrySingleton hungrySingleton = HungrySingleton.getInstance();
         hungrySingleton.print();
+        EnumSingleton.INSTANCE.print();
     }
 }

@@ -16,7 +16,7 @@ public class ShowLock {
 
     private static class LockRunnable implements Runnable {
 
-        private final Lock lock = new ReentrantLock();
+        private static final Lock lock = new ReentrantLock();
 
         @Override
         public void run() {

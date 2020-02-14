@@ -25,7 +25,7 @@ public class ShowReadWriteLock {
 
         @Override
         public void run() {
-            int total = readWrite.getTotal();
+            readWrite.getTotal();
         }
     }
 

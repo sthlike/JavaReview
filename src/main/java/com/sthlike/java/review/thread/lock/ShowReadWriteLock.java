@@ -15,9 +15,9 @@ public class ShowReadWriteLock {
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
             new Thread(new WriteRunnable()).start();
-        }
-        for (int i = 0; i < 30; i++) {
-            new Thread(new ReadRunnable()).start();
+            for (int j = 0; j < 10; j++) {
+                new Thread(new ReadRunnable()).start();
+            }
         }
     }
 
@@ -25,10 +25,7 @@ public class ShowReadWriteLock {
 
         @Override
         public void run() {
-            long start = System.currentTimeMillis();
             int total = readWrite.getTotal();
-            System.out.printf("the total is %d and get total in %d ms\n",
-                    total, System.currentTimeMillis() - start);
         }
     }
 
@@ -36,11 +33,8 @@ public class ShowReadWriteLock {
 
         @Override
         public void run() {
-            long start = System.currentTimeMillis();
             int random = new Random().nextInt(100);
             readWrite.setTotal(random);
-            System.out.printf("set total %d in %d ms\n",
-                    random, System.currentTimeMillis() - start);
         }
     }
 
@@ -52,22 +46,28 @@ public class ShowReadWriteLock {
         private int total;
 
         public int getTotal() {
+            long start = System.currentTimeMillis();
             readLock.lock();
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {
+                System.out.printf("the total is %d and get total in %d ms\n",
+                        total, System.currentTimeMillis() - start);
                 readLock.unlock();
             }
             return this.total;
         }
 
         public void setTotal(int total) {
+            long start = System.currentTimeMillis();
             writeLock.lock();
             try {
                 Thread.sleep(10);
                 this.total = total;
+                System.out.printf("set total %d in %d ms\n",
+                        total, System.currentTimeMillis() - start);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {

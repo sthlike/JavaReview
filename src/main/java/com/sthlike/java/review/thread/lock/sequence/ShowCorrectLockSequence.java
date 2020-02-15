@@ -39,12 +39,16 @@ public class ShowCorrectLockSequence {
     private static void testSequence() {
         BankAccount from = new BankAccount("12345", 500);
         BankAccount to = new BankAccount("54321", 300);
+        BankAccount to2 = new BankAccount("12345", 400);
         for (int i = 0; i < 10; i++) {
             new Thread(() -> {
                 from.transfer(to, 10);
             }).start();
             new Thread(() -> {
                 to.transfer(from, 20);
+            }).start();
+            new Thread(() -> {
+                from.transfer(to2, 10);
             }).start();
         }
         try {
@@ -54,5 +58,6 @@ public class ShowCorrectLockSequence {
         }
         System.out.println(from.getAmount());
         System.out.println(to.getAmount());
+        System.out.println(to2.getAmount());
     }
 }

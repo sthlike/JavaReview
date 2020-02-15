@@ -5,7 +5,7 @@
 package com.sthlike.java.review.thread.lock.sequence;
 
 public class BankAccount {
-    private static final transient Object tieLock = new Object();
+    private static final Object tieLock = new Object();
     private final String id;
     private volatile double amount;
 
@@ -22,8 +22,10 @@ public class BankAccount {
      * @param amount
      */
     public void transfer(BankAccount to, double amount) {
-        int fromHash = System.identityHashCode(this);
-        int toHash = System.identityHashCode(to);
+        //int fromHash = System.identityHashCode(this);
+        //int toHash = System.identityHashCode(to);
+        int fromHash = this.id.hashCode();//为演示HashCode冲突时的处理
+        int toHash = to.id.hashCode();//为演示HashCode冲突时的处理
         if (fromHash < toHash) {
             synchronized (this) {
                 System.out.println("lock from in thread "
@@ -51,7 +53,11 @@ public class BankAccount {
                 System.out.println("tie lock in thread "
                         + Thread.currentThread().getId());
                 synchronized (this) {
+                    System.out.println("tie lock from in thread "
+                            + Thread.currentThread().getId());
                     synchronized (to) {
+                        System.out.println("tie lock to in thread "
+                                + Thread.currentThread().getId());
                         this.amount -= amount;
                         to.amount += amount;
                     }

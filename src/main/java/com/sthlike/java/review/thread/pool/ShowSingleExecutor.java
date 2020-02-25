@@ -11,7 +11,7 @@ public class ShowSingleExecutor {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executorService.execute(() -> {
-            System.out.println("executed by single thread");
+            System.out.println("executed 1 by single thread");
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
@@ -19,12 +19,10 @@ public class ShowSingleExecutor {
             }
         });
 
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("executed by single thread");
-            }
-        });
+        executorService.execute(() -> {
+                    System.out.println("executed 2 by single thread");
+                }
+        );
         executorService.shutdown();
     }
 }

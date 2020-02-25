@@ -32,5 +32,10 @@ public class Main {
         PostOrder.postOrderVisitWith2Stacks(root);
         System.out.println("\npost order visit in non recursive whit 1 stacks");
         PostOrder.postOrderVisitWith1Stacks(root);
+
+        System.out.println("\nBFS null tree");
+        BFS.breadthFirstSearch(null);
+        System.out.println("\nBFS");
+        BFS.breadthFirstSearch(root);
     }
 }

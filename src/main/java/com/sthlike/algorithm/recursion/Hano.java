@@ -2,7 +2,7 @@
  * Copyright (c) 2020 sthlike.com.
  */
 
-package com.sthlike.algorithm.recursive;
+package com.sthlike.algorithm.recursion;
 
 public class Hano {
     public static void move(char a, char b, char c, int n) {

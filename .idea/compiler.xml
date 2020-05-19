@@ -13,4 +13,9 @@
       <module name="JavaReview" target="13" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JavaReview" options="" />
+    </option>
+  </component>
 </project>

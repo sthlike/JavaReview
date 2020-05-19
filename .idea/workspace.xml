@@ -1,50 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4bbcc351-1b64-4165-b9b3-7e05279b8e2e" name="Default Changelist" comment="init project">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/sthlike.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sun.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/singleton/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/clojure_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joda_joda_money_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/free/FindOneNumLost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/free/GroupingIntsByCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/free/ThrowEggs100Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/free/WaterVolume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/common/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/dynamicprogramming/P0070ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/dynamicprogramming/P0072EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/dynamicprogramming/P0322CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/hash/P0001TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/hash/P0015ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/hash/P0242ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/list/P0024SwapPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/list/P0042TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/list/P0141N0142LikedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/list/P0206ReversLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/list/P0407TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/stackqueue/P0020ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/stackqueue/P0225ImplementStackUsingQueues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/stackqueue/P0232ImplementQueueUsingStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/stackqueue/P0239SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/stackqueue/P0703KthLargestElementInaStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Counting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Merge1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Merge2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Radix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Shell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Sortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/clojure/Demo.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/clojure/TestClojure.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/datastructer/hash/ShowLinkedHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/notrack/SocketExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/stream/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/stream/ShowStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sthlike/algorithm/leetcode/dynamicprogramming/P0070ClimbingStairsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sthlike/notrack/NoTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaReview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaReview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/classlayout/ShowClassLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/classlayout/ShowClassLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/CallableImplShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowCallableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/CallableShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/DaemonShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowDaemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/MainShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowMainThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/RunnableImplShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowRunnableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/RunnableShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ThreadShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ThreadStopShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/ShowStopThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomicReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/cas/ShowAtomicReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/forkjoin/ShowForkJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/forkjoin/ShowForkJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/lock/ShowReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowWaitTimeOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/notify/ShowWaitTimeOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowCachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowCachedThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowFixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowFixedThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowForkJoinPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowForkJoinPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowScheduledThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowScheduledThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowSingleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/java/review/thread/pool/ShowSingleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/P0010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/P0010.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/recursion/Hano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/recursion/Hano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/recursion/NumEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/recursion/NumEncoding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaReview" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DepsLocalSettings">
+    <option name="repoId" value="" />
+    <option name="repoUrl" value="" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="ClojureScript Namespace" />
+        <option value="Clojure Namespace" />
         <option value="Class" />
       </list>
     </option>
@@ -59,48 +103,55 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1WWUGDkdlIY3PbRrdchZYCOy6i7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./Users/sun/IdeaProjects/JavaReview/src/main/java" value="clj" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sthlike.notrack" />
+      <recent name="com.sthlike.algorithm.leetcode" />
+      <recent name="com.sthlike.spring.dao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sthlike.distribution.lock.multi" />
+      <recent name="com.sthlike.java.review.thread.lock.sequence" />
       <recent name="com.sthlike.java.review.thread.lock" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sthlike/clojure" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ShowCondition">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.singleton.Main" />
+  <component name="RunManager" selected="Application.GroupingIntsByCondition">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.stream.Demo" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.singleton.*" />
+          <option name="PATTERN" value="com.sthlike.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.cas.ShowAtomic" />
+    <configuration name="GroupingIntsByCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.algorithm.free.GroupingIntsByCondition" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.thread.cas.*" />
+          <option name="PATTERN" value="com.sthlike.algorithm.free.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowAtomicReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.cas.ShowAtomicReference" />
+    <configuration name="P0042TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.algorithm.leetcode.list.P0042TrappingRainWater" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.thread.cas.*" />
+          <option name="PATTERN" value="com.sthlike.algorithm.leetcode.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.lock.ShowCondition" />
+    <configuration name="P0407TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.algorithm.leetcode.list.P0407TrappingRainWater" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.thread.lock.*" />
+          <option name="PATTERN" value="com.sthlike.algorithm.leetcode.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sthlike.java.review.thread.lock.ShowReadWriteLock" />
+    <configuration name="WaterVolume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sthlike.algorithm.free.WaterVolume" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sthlike.java.review.thread.lock.*" />
+          <option name="PATTERN" value="com.sthlike.algorithm.free.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,27 +211,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.WaterVolume" />
+      <item itemvalue="Application.P0042TrappingRainWater" />
+      <item itemvalue="Application.P0407TrappingRainWater" />
+      <item itemvalue="Application.GroupingIntsByCondition" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShowCondition" />
-        <item itemvalue="Application.ShowReadWriteLock" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ShowAtomicReference" />
-        <item itemvalue="Application.ShowAtomic" />
+        <item itemvalue="Application.GroupingIntsByCondition" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.P0407TrappingRainWater" />
+        <item itemvalue="Application.P0042TrappingRainWater" />
+        <item itemvalue="Application.WaterVolume" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -208,13 +273,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
@@ -222,6 +286,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit c4043811" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="45" key="#Clojure" timestamp="1585665673585">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state x="240" y="45" key="#Clojure/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585665673585" />
+    <state x="523" y="249" key="#Notifications" timestamp="1586527651718">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="523" y="249" key="#Notifications/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586527651718" />
     <state x="240" y="77" key="#Project_Structure" timestamp="1581086787532">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -230,13 +302,18 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="316" y="88" key="#ShowClassLayout/0.23.1280.777@0.23.1280.777" timestamp="1579764053521" />
-    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579265729255">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="104" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585665101540">
+      <screen x="0" y="23" width="1280" height="713" />
     </state>
+    <state x="104" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585665101540" />
     <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1579265729255" />
-    <state x="453" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1580981250452">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="453" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1587019026600">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
+    <state x="453" y="120" key="#com.intellij.ide.util.MemberChooser/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1584856229034" />
+    <state x="453" y="121" key="#com.intellij.ide.util.MemberChooser/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586593020641" />
+    <state x="453" y="121" key="#com.intellij.ide.util.MemberChooser/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1584715450352" />
+    <state x="453" y="121" key="#com.intellij.ide.util.MemberChooser/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587019026600" />
     <state x="453" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1579339830887" />
     <state x="453" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1580981250452" />
     <state x="378" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579697991506">
@@ -255,26 +332,45 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="224" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1280.777@0.23.1280.777" timestamp="1579266193487" />
-    <state x="328" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581084354464">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="328" y="137" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586526247478">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
+    <state x="328" y="137" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586526247478" />
     <state x="328" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1581084354464" />
-    <state x="220" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580368313604">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="220" y="318" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585320233740">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
+    <state x="220" y="318" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585320233740" />
     <state x="220" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580368313604" />
-    <state x="406" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1579697993008">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="406" y="248" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586497370413">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
+    <state x="406" y="246" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1584864505092" />
+    <state x="406" y="248" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586497370413" />
+    <state x="406" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585320235688">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="406" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585320235688" />
     <state x="406" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1280.777@0.23.1280.777" timestamp="1579697993008" />
-    <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580815182757">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="350" y="204" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586784291650">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
+    <state x="350" y="204" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586784291650" />
+    <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587017547675">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587017547675" />
+    <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1583390779583" />
     <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777@0.23.1280.777" timestamp="1580815182757" />
-    <state x="337" y="297" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579266385908">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="378" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584852537374">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
-    <state x="337" y="297" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.777@0.23.1280.777" timestamp="1579266385908" />
+    <state x="378" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1584852537374" />
+    <state x="337" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587007509372">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="337" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587007509372" />
+    <state x="337" y="297" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.777@0.23.1280.777" timestamp="1582445349159" />
     <state x="232" y="23" key="CommitChangelistDialog2" timestamp="1580992402898">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -287,50 +383,109 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="377" y="125" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1580990006667" />
-    <state width="1238" height="285" key="GridCell.Tab.0.bottom" timestamp="1581657593970">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="132" key="GridCell.Tab.0.bottom" timestamp="1587018413543">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787841" />
-    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581657593970" />
-    <state width="1238" height="285" key="GridCell.Tab.0.center" timestamp="1581657593969">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="140" key="GridCell.Tab.0.bottom/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585994628820" />
+    <state width="619" height="140" key="GridCell.Tab.0.bottom/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1586075178143" />
+    <state width="1238" height="140" key="GridCell.Tab.0.bottom/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1584883220940" />
+    <state width="619" height="323" key="GridCell.Tab.0.bottom/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847505013" />
+    <state width="619" height="323" key="GridCell.Tab.0.bottom/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586929642347" />
+    <state width="619" height="132" key="GridCell.Tab.0.bottom/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587018413543" />
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1583391821595" />
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.988@0.23.1280.777" timestamp="1584013708483" />
+    <state width="1238" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1583066991615" />
+    <state width="619" height="132" key="GridCell.Tab.0.center" timestamp="1587018413535">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787838" />
-    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581657593969" />
-    <state width="1238" height="285" key="GridCell.Tab.0.left" timestamp="1581657593968">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="140" key="GridCell.Tab.0.center/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585994628817" />
+    <state width="619" height="140" key="GridCell.Tab.0.center/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1586075178142" />
+    <state width="1238" height="140" key="GridCell.Tab.0.center/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1584883220939" />
+    <state width="619" height="323" key="GridCell.Tab.0.center/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847505011" />
+    <state width="619" height="323" key="GridCell.Tab.0.center/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586929642346" />
+    <state width="619" height="132" key="GridCell.Tab.0.center/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587018413535" />
+    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1583391821592" />
+    <state width="1238" height="139" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.988@0.23.1280.777" timestamp="1584013708471" />
+    <state width="1238" height="285" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1583066991601" />
+    <state width="619" height="132" key="GridCell.Tab.0.left" timestamp="1587018413535">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787837" />
-    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581657593968" />
-    <state width="1238" height="285" key="GridCell.Tab.0.right" timestamp="1581657593969">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="140" key="GridCell.Tab.0.left/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585994628816" />
+    <state width="619" height="140" key="GridCell.Tab.0.left/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1586075178141" />
+    <state width="1238" height="140" key="GridCell.Tab.0.left/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1584883220939" />
+    <state width="619" height="323" key="GridCell.Tab.0.left/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847505010" />
+    <state width="619" height="323" key="GridCell.Tab.0.left/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586929642345" />
+    <state width="619" height="132" key="GridCell.Tab.0.left/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587018413535" />
+    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1583391821591" />
+    <state width="1238" height="139" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.988@0.23.1280.777" timestamp="1584013708469" />
+    <state width="1238" height="285" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1583066991596" />
+    <state width="619" height="132" key="GridCell.Tab.0.right" timestamp="1587018413537">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1580385787840" />
-    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581657593969" />
-    <state width="1238" height="245" key="GridCell.Tab.1.bottom" timestamp="1580992653908">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="140" key="GridCell.Tab.0.right/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585994628819" />
+    <state width="619" height="140" key="GridCell.Tab.0.right/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1586075178142" />
+    <state width="1238" height="140" key="GridCell.Tab.0.right/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1584883220940" />
+    <state width="619" height="323" key="GridCell.Tab.0.right/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847505012" />
+    <state width="619" height="323" key="GridCell.Tab.0.right/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586929642346" />
+    <state width="619" height="132" key="GridCell.Tab.0.right/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587018413537" />
+    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1583391821593" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.988@0.23.1280.777" timestamp="1584013708482" />
+    <state width="1238" height="285" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1583066991605" />
+    <state width="619" height="218" key="GridCell.Tab.1.bottom" timestamp="1587008977765">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
+    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585744290340" />
+    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585721887412" />
+    <state width="619" height="218" key="GridCell.Tab.1.bottom/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847504993" />
+    <state width="619" height="218" key="GridCell.Tab.1.bottom/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586875470578" />
+    <state width="619" height="218" key="GridCell.Tab.1.bottom/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587008977765" />
     <state width="1238" height="245" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580992653908" />
-    <state width="1238" height="245" key="GridCell.Tab.1.center" timestamp="1580992653907">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="218" key="GridCell.Tab.1.center" timestamp="1587008977763">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
+    <state width="1238" height="218" key="GridCell.Tab.1.center/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585744290338" />
+    <state width="1238" height="218" key="GridCell.Tab.1.center/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585721887411" />
+    <state width="619" height="218" key="GridCell.Tab.1.center/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847504992" />
+    <state width="619" height="218" key="GridCell.Tab.1.center/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586875470576" />
+    <state width="619" height="218" key="GridCell.Tab.1.center/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587008977763" />
     <state width="1238" height="245" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1580992653907" />
-    <state width="1238" height="245" key="GridCell.Tab.1.left" timestamp="1580992653907">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="218" key="GridCell.Tab.1.left" timestamp="1587008977762">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
+    <state width="1238" height="218" key="GridCell.Tab.1.left/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585744290338" />
+    <state width="1238" height="218" key="GridCell.Tab.1.left/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585721887411" />
+    <state width="619" height="218" key="GridCell.Tab.1.left/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847504992" />
+    <state width="619" height="218" key="GridCell.Tab.1.left/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586875470575" />
+    <state width="619" height="218" key="GridCell.Tab.1.left/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587008977762" />
     <state width="1238" height="245" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1580992653907" />
-    <state width="1238" height="245" key="GridCell.Tab.1.right" timestamp="1580992653908">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="619" height="218" key="GridCell.Tab.1.right" timestamp="1587008977764">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
+    <state width="1238" height="218" key="GridCell.Tab.1.right/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585744290339" />
+    <state width="1238" height="218" key="GridCell.Tab.1.right/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585721887412" />
+    <state width="619" height="218" key="GridCell.Tab.1.right/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586847504993" />
+    <state width="619" height="218" key="GridCell.Tab.1.right/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1586875470577" />
+    <state width="619" height="218" key="GridCell.Tab.1.right/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1587008977764" />
     <state width="1238" height="245" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1580992653908" />
+    <state x="228" y="121" key="IDE.errors.dialog" timestamp="1586527284279">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="228" y="121" key="IDE.errors.dialog/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586527284279" />
+    <state x="252" y="78" key="NewModule_or_Project.wizard" timestamp="1584762587418">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="252" y="78" key="NewModule_or_Project.wizard/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1584762587417" />
     <state x="441" y="336" key="ReplaceDuplicatesPrompt" timestamp="1580297884905">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="441" y="336" key="ReplaceDuplicatesPrompt/0.23.1280.777@0.23.1280.777" timestamp="1580297884905" />
-    <state x="141" y="23" key="SettingsEditor" timestamp="1581652134266">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="141" y="23" width="997" height="721" key="SettingsEditor" timestamp="1586527202355">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state x="141" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1581652134266" />
+    <state x="141" y="23" width="997" height="713" key="SettingsEditor/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585748560036" />
+    <state x="141" y="23" width="997" height="716" key="SettingsEditor/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1585052259391" />
+    <state x="141" y="23" width="997" height="721" key="SettingsEditor/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586527202355" />
+    <state x="141" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1582120595084" />
     <state x="389" y="192" width="540" height="524" key="StructurePopup" timestamp="1581085523943">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -343,25 +498,67 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="770" height="777" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.23.1280.777@0.23.1280.777" timestamp="1579697323610" />
-    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1581084386170">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="197" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1586526088680">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1581084386170" />
+    <state x="197" y="177" key="com.intellij.ide.util.TipDialog/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585745663161" />
+    <state x="197" y="179" key="com.intellij.ide.util.TipDialog/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586526088680" />
+    <state x="197" y="179" key="com.intellij.ide.util.TipDialog/0.23.1280.723/1280.23.1920.1057@0.23.1280.723" timestamp="1584674334351" />
+    <state x="197" y="191" key="com.intellij.ide.util.TipDialog/0.23.1280.777/1280.23.1920.1057@0.23.1280.777" timestamp="1583390318406" />
+    <state x="197" y="191" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1582616117095" />
     <state x="433" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581086894930">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="433" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.777@0.23.1280.777" timestamp="1581086894930" />
-    <state x="378" y="171" width="531" height="484" key="extract.method.dialog" timestamp="1580737753439">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="378" y="159" width="531" height="484" key="extract.method.dialog" timestamp="1585492444045">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
-    <state x="378" y="171" width="531" height="484" key="extract.method.dialog/0.23.1280.777@0.23.1280.777" timestamp="1580737753438" />
+    <state x="378" y="159" key="extract.method.dialog/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585492444045" />
+    <state x="378" y="171" width="531" height="484" key="extract.method.dialog/0.23.1280.777@0.23.1280.777" timestamp="1581693886453" />
     <state x="0" y="23" width="837" height="777" key="find.popup" timestamp="1581084520297">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="0" y="23" width="837" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1581084520297" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581652689202">
+    <state x="17" y="85" key="new project wizard" timestamp="1586075118995">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="17" y="85" key="new project wizard/0.23.1280.713/1280.23.1920.1057@0.23.1280.713" timestamp="1585663863804" />
+    <state x="17" y="85" key="new project wizard/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1586075118995" />
+    <state x="17" y="85" key="new project wizard/0.23.1280.716/1280.23.1920.1057@0.23.1280.716" timestamp="1585051898088" />
+    <state x="346" y="25" key="refactoring.ChangeSignatureDialog" timestamp="1582646894000">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1581652689202" />
+    <state x="346" y="25" key="refactoring.ChangeSignatureDialog/0.23.1280.777@0.23.1280.777" timestamp="1582646894000" />
+    <state x="305" y="172" key="run.anything.popup" timestamp="1584252530253">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="305" y="172" key="run.anything.popup/0.23.1280.724/1280.23.1920.1057@0.23.1280.724" timestamp="1584252530253" />
+    <state x="305" y="117" width="690" height="629" key="search.everywhere.popup" timestamp="1586676743702">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="305" y="116" width="670" height="623" key="search.everywhere.popup/0.23.1280.715/1280.23.1920.1057@0.23.1280.715" timestamp="1585490587356" />
+    <state x="305" y="117" width="690" height="629" key="search.everywhere.popup/0.23.1280.721/1280.23.1920.1057@0.23.1280.721" timestamp="1586676743702" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1583042690046" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/sort/Main.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/leetcode/list/P0407TrappingRainWater.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sthlike/algorithm/free/GroupingIntsByCondition.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
